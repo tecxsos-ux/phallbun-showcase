@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <div className="absolute inset-0 animate-luxury-flow opacity-40 pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Intro Section */}
         <div className="text-center mb-24">
           <span className="text-gold tracking-[0.3em] uppercase text-sm font-bold opacity-80">{t('about.tagline')}</span>
@@ -24,9 +24,9 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-32">
           <div className="relative group">
             <div className="absolute inset-0 border border-gold transform translate-x-4 translate-y-4 z-0 transition-transform duration-700 group-hover:translate-x-2 group-hover:translate-y-2 opacity-50" />
-            <img 
-              src="https://i.ibb.co/wrdQq0Xw/about-us-photo.jpg" 
-              alt={t('about.founder_title')} 
+            <img
+              src="https://i.ibb.co/wrdQq0Xw/about-us-photo.jpg"
+              alt={t('about.founder_title')}
               className="relative z-10 w-full h-[600px] object-cover shadow-2xl grayscale-[0.2] contrast-[1.1] group-hover:grayscale-0 transition-all duration-1000"
             />
           </div>
@@ -87,6 +87,11 @@ const About: React.FC = () => {
                 <h3 className="text-white font-serif text-xl uppercase tracking-widest relative z-10">{t(`about.${item}`)}</h3>
               </div>
             ))}
+          </div>
+          <div className="mt-16 max-w-4xl mx-auto text-center">
+            <p className="text-gray-400 text-lg leading-relaxed font-light italic border-t border-white/10 pt-10">
+              {t('about.philosophy_extra')}
+            </p>
           </div>
         </div>
 

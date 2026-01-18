@@ -16,7 +16,6 @@ export const PRODUCTS: Product[] = [
     image: 'https://i.ibb.co/DPdKwW3Z/product-antiage.jpg',
     ageRange: '25+',
     descriptionKeys: [
-      'items.antiage.desc1',
       'items.antiage.desc2',
       'items.antiage.desc3'
     ],
@@ -34,7 +33,6 @@ export const PRODUCTS: Product[] = [
     image: 'https://i.ibb.co/TxpSV4BN/product-cream.jpg',
     ageRange: '10–25',
     descriptionKeys: [
-      'items.young.desc1',
       'items.young.desc2'
     ],
     featuresKeys: [

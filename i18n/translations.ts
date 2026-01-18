@@ -22,7 +22,17 @@ export const translations: Record<Language, any> = {
       feature1_sub: 'Simple ingredients, powerful results.',
       feature2: 'Trust & Care',
       feature2_sub: 'Products you will never regret investing in.',
-      discover: 'Discover Our Story'
+
+      extra_text: 'PHALLBUN follows a thoughtful, step-by-step development approach, beginning with a carefully curated initial range. This allows us to dedicate full attention to formulation quality, sensorial experience, and consistency, while building a strong foundation for long-term brand excellence.',
+      discover: 'Discover Our Story',
+      target_market: {
+        title: 'OUR TARGET MARKET',
+        geo_title: 'Geography',
+        geo_text: 'PHALLBUN is developed for the Swiss and European Union (EU) markets, with a focus on quality, safety, and long-term trust.',
+        customers_title: 'Target Customers',
+        customers_text: 'PHALLBUN products are designed for easy and intuitive use, seamlessly integrating into everyday routines. They are developed to suit a wide range of skin needs, while supporting a natural, effortless beauty approach that feels authentic and refined.',
+        compliance: 'All products are developed in compliance with Swiss and European cosmetic regulations.'
+      }
     },
     products: {
       title: 'Our Skincare Projects',
@@ -54,7 +64,8 @@ export const translations: Record<Language, any> = {
       simple: 'Simple',
       honest: 'Honest',
       gentle: 'Gentle',
-      effective: 'Effective'
+      effective: 'Effective',
+      philosophy_extra: 'PHALLBUN follows a thoughtful, step-by-step development approach, beginning with a carefully curated initial range. This allows us to dedicate full attention to formulation quality, sensorial experience, and consistency, while building a strong foundation for long-term brand excellence.'
     },
     contact: {
       tagline: 'Get in Touch',
@@ -75,8 +86,7 @@ export const translations: Record<Language, any> = {
     items: {
       antiage: {
         name: 'All-in-One Repair & Brightening Cream',
-        subtitle: 'Adult Skin (25+)',
-        desc1: 'Our second cream is created for adult skin, from 25 years old and above.',
+        subtitle: '',
         desc2: 'This is a day and night all-in-one cream, designed to fit easily into every routine.',
         desc3: 'With regular use, it helps the skin look younger, smoother, healthier, and more radiant.',
         f1: 'Anti-aging prevention',
@@ -86,8 +96,7 @@ export const translations: Record<Language, any> = {
       },
       young: {
         name: 'Daily Protective Cream',
-        subtitle: 'Young Skin (10–25)',
-        desc1: 'Our first cream is created for young skin, from 10 to 25 years old, and suitable for all skin types.',
+        subtitle: '',
         desc2: 'It is gentle, calming, and made to protect young skin every day.',
         f1: 'Protection from climate and environmental stress',
         f2: 'Deep hydration',
@@ -117,7 +126,17 @@ export const translations: Record<Language, any> = {
       feature1_sub: 'Ingrédients simples, résultats puissants.',
       feature2: 'Confiance & Soin',
       feature2_sub: 'Des produits que vous ne regretterez jamais d\'avoir choisis.',
-      discover: 'Découvrez notre Histoire'
+
+      extra_text: 'PHALLBUN suit une approche de développement réfléchie, étape par étape, commençant par une gamme initiale soigneusement sélectionnée. Cela nous permet de consacrer toute notre attention à la qualité de la formulation, à l\'expérience sensorielle et à la cohérence, tout en construisant une base solide pour l\'excellence durable de la marque.',
+      discover: 'Découvrez notre Histoire',
+      target_market: {
+        title: 'NOTRE MARCHÉ CIBLE',
+        geo_title: 'Géographie',
+        geo_text: 'PHALLBUN est développé pour les marchés suisse et de l\'Union européenne (UE), avec un accent sur la qualité, la sécurité et la confiance à long terme.',
+        customers_title: 'Clients Cibles',
+        customers_text: 'Les produits PHALLBUN sont conçus pour une utilisation facile et intuitive, s\'intégrant parfaitement aux routines quotidiennes. Ils sont développés pour répondre à un large éventail de besoins cutanés, tout en soutenant une approche de beauté naturelle et sans effort qui semble authentique et raffinée.',
+        compliance: 'Tous les produits sont développés conformément aux réglementations cosmétiques suisses et européennes.'
+      }
     },
     products: {
       title: 'Nos Projets de Soins',
@@ -149,7 +168,8 @@ export const translations: Record<Language, any> = {
       simple: 'Simple',
       honest: 'Honnête',
       gentle: 'Doux',
-      effective: 'Efficace'
+      effective: 'Efficace',
+      philosophy_extra: 'PHALLBUN suit une approche de développement réfléchie, étape par étape, commençant par une gamme initiale soigneusement sélectionnée. Cela nous permet de consacrer toute notre attention à la qualité de la formulation, à l\'expérience sensorielle et à la cohérence, tout en construisant une base solide pour l\'excellence durable de la marque.'
     },
     contact: {
       tagline: 'Contactez-nous',
@@ -170,8 +190,7 @@ export const translations: Record<Language, any> = {
     items: {
       antiage: {
         name: 'Crème Réparatrice & Éclaircissante Tout-en-un',
-        subtitle: 'Peaux Adultes (25+)',
-        desc1: 'Notre deuxième crème est créée pour la peau adulte, à partir de 25 ans.',
+        subtitle: '',
         desc2: 'C\'est une crème tout-en-un jour et nuit, conçue pour s\'adapter facilement à chaque routine.',
         desc3: 'Avec une utilisation régulière, elle aide la peau à paraître plus jeune, plus lisse et plus éclatante.',
         f1: 'Prévention anti-âge',
@@ -181,8 +200,7 @@ export const translations: Record<Language, any> = {
       },
       young: {
         name: 'Crème Protectrice Quotidienne',
-        subtitle: 'Peaux Jeunes (10–25)',
-        desc1: 'Notre première crème est créée pour les peaux jeunes, de 10 à 25 ans.',
+        subtitle: '',
         desc2: 'Elle est douce, apaisante et conçue pour protéger la peau jeune au quotidien.',
         f1: 'Protection contre le climat et le stress environnemental',
         f2: 'Hydratation profonde',
@@ -212,7 +230,17 @@ export const translations: Record<Language, any> = {
       feature1_sub: 'Ingredienti semplici, risultati potenti.',
       feature2: 'Fiducia e Cura',
       feature2_sub: 'Prodotti di cui non ti pentirai mai di aver investito.',
-      discover: 'Scopri la Nostra Storia'
+
+      extra_text: 'PHALLBUN segue un approccio di sviluppo ponderato, passo dopo passo, iniziando con una gamma iniziale accuratamente curata. Questo ci permette di dedicare la massima attenzione alla qualità della formulazione, all\'esperienza sensoriale e alla coerenza, costruendo al contempo una solida base per l\'eccellenza del marchio a lungo termine.',
+      discover: 'Scopri la Nostra Storia',
+      target_market: {
+        title: 'IL NOSTRO MERCATO DI RIFERIMENTO',
+        geo_title: 'Geografia',
+        geo_text: 'PHALLBUN è sviluppato per i mercati svizzero e dell\'Unione Europea (UE), con particolare attenzione alla qualità, alla sicurezza e alla fiducia a lungo termine.',
+        customers_title: 'Clienti Target',
+        customers_text: 'I prodotti PHALLBUN sono progettati per un uso facile e intuitivo, integrandosi perfettamente nelle routine quotidiane. Sono sviluppati per adattarsi a una vasta gamma di esigenze della pelle, supportando un approccio di bellezza naturale e senza sforzo che sembra autentico e raffinato.',
+        compliance: 'Tutti i prodotti sono sviluppati in conformità con le normative cosmetiche svizzere ed europee.'
+      }
     },
     products: {
       title: 'I Nostri Progetti Skincare',
@@ -244,7 +272,8 @@ export const translations: Record<Language, any> = {
       simple: 'Semplice',
       honest: 'Onesto',
       gentle: 'Delicato',
-      effective: 'Efficace'
+      effective: 'Efficace',
+      philosophy_extra: 'PHALLBUN segue un approccio di sviluppo ponderato, passo dopo passo, iniziando con una gamma iniziale accuratamente curata. Questo ci permette di dedicare la massima attenzione alla qualità della formulazione, all\'esperienza sensoriale e alla coerenza, costruendo al contempo una solida base per l\'eccellenza del marchio a lungo termine.'
     },
     contact: {
       tagline: 'Entra in Contatto',
@@ -265,8 +294,7 @@ export const translations: Record<Language, any> = {
     items: {
       antiage: {
         name: 'Crema All-in-One Riparatrice e Illuminante',
-        subtitle: 'Pelle Adulta (25+)',
-        desc1: 'La nostra seconda crema è creata per la pelle adulta, dai 25 anni in su.',
+        subtitle: '',
         desc2: 'Questa è una crema all-in-one giorno e notte, progettata per adattarsi facilmente a ogni routine.',
         desc3: 'Con l\'uso regolare, aiuta la pelle a apparire più giovane, liscia e radiosa.',
         f1: 'Prevenzione anti-età',
@@ -276,8 +304,7 @@ export const translations: Record<Language, any> = {
       },
       young: {
         name: 'Crema Protettiva Quotidiana',
-        subtitle: 'Pelle Giovane (10–25)',
-        desc1: 'La nostra prima crema è creata per la pelle giovane, dai 10 ai 25 anni.',
+        subtitle: '',
         desc2: 'È delicata, calmante e fatta per proteggere la pelle giovane ogni giorno.',
         f1: 'Protezione dal clima e dallo stress ambientale',
         f2: 'Idratazione profonda',
@@ -307,7 +334,17 @@ export const translations: Record<Language, any> = {
       feature1_sub: 'Einfache Inhaltsstoffe, kraftvolle Ergebnisse.',
       feature2: 'Vertrauen & Pflege',
       feature2_sub: 'Produkte, deren Investition Sie nie bereuen werden.',
-      discover: 'Unsere Geschichte entdecken'
+
+      extra_text: 'PHALLBUN verfolgt einen durchdachten, schrittweisen Entwicklungsansatz, der mit einem sorgfältig kuratierten Anfangssortiment beginnt. Dies ermöglicht es uns, der Formulierungsqualität, dem sensorischen Erlebnis und der Konsistenz unsere volle Aufmerksamkeit zu widmen und gleichzeitig ein starkes Fundament für langfristige Markenexzellenz zu schaffen.',
+      discover: 'Unsere Geschichte entdecken',
+      target_market: {
+        title: 'UNSER ZIELMARKT',
+        geo_title: 'Geografie',
+        geo_text: 'PHALLBUN wurde für den schweizerischen und den Markt der Europäischen Union (EU) entwickelt, mit Fokus auf Qualität, Sicherheit und langfristiges Vertrauen.',
+        customers_title: 'Zielkunden',
+        customers_text: 'PHALLBUN-Produkte sind für eine einfache und intuitive Anwendung konzipiert und lassen sich nahtlos in den Alltag integrieren. Sie wurden entwickelt, um einer Vielzahl von Hautbedürfnissen gerecht zu werden und gleichzeitig einen natürlichen, mühelosen Schönheitsansatz zu unterstützen, der sich authentisch und raffiniert anfühlt.',
+        compliance: 'Alle Produkte werden in Übereinstimmung mit den schweizerischen und europäischen Kosmetikverordnungen entwickelt.'
+      }
     },
     products: {
       title: 'Unsere Hautpflege-Projekte',
@@ -339,7 +376,8 @@ export const translations: Record<Language, any> = {
       simple: 'Einfach',
       honest: 'Ehrlich',
       gentle: 'Sanft',
-      effective: 'Effektiv'
+      effective: 'Effektiv',
+      philosophy_extra: 'PHALLBUN verfolgt einen durchdachten, schrittweisen Entwicklungsansatz, der mit einem sorgfältig kuratierten Anfangssortiment beginnt. Dies ermöglicht es uns, der Formulierungsqualität, dem sensorischen Erlebnis und der Konsistenz unsere volle Aufmerksamkeit zu widmen und gleichzeitig ein starkes Fundament für langfristige Markenexzellenz zu schaffen.'
     },
     contact: {
       tagline: 'Kontakt aufnehmen',
@@ -360,8 +398,7 @@ export const translations: Record<Language, any> = {
     items: {
       antiage: {
         name: 'All-in-One Reparatur & Aufhellungscreme',
-        subtitle: 'Reife Haut (25+)',
-        desc1: 'Unsere zweite Creme wurde für reife Haut ab 25 Jahren entwickelt.',
+        subtitle: '',
         desc2: 'Dies ist eine All-in-One Tages- und Nachtcreme, die sich leicht in jede Routine einfügt.',
         desc3: 'Bei regelmäßiger Anwendung wirkt die Haut jünger, glatter und strahlender.',
         f1: 'Anti-Aging-Prävention',
@@ -371,8 +408,7 @@ export const translations: Record<Language, any> = {
       },
       young: {
         name: 'Tägliche Schutzcreme',
-        subtitle: 'Junge Haut (10–25)',
-        desc1: 'Unsere erste Creme wurde für junge Haut von 10 bis 25 Jahren entwickelt.',
+        subtitle: '',
         desc2: 'Sie ist sanft, beruhigend und schützt junge Haut jeden Tag.',
         f1: 'Schutz vor Klima- und Umweltstress',
         f2: 'Tiefe Hydratation',
