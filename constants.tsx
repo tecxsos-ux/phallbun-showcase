@@ -13,7 +13,7 @@ export const PRODUCTS: Product[] = [
     id: 'anti-age-repair',
     nameKey: 'items.antiage.name',
     subtitleKey: 'items.antiage.subtitle',
-    image: 'https://i.ibb.co/DPdKwW3Z/product-antiage.jpg', 
+    image: 'https://i.ibb.co/DPdKwW3Z/product-antiage.jpg',
     ageRange: '25+',
     descriptionKeys: [
       'items.antiage.desc1',
@@ -51,4 +51,5 @@ export const CONTACT_DETAILS = {
   name: 'PHALLBUN',
   address: 'Hüningerstrasse 14, 4056 Basel',
   email: 'phallbun.ck@gmail.com',
+  phone: '+41 77 928 81 33'
 };
