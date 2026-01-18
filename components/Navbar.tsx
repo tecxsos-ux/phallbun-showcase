@@ -24,10 +24,10 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-4 group">
-            <img 
-              src="https://i.ibb.co/6JvL1qyh/logo.png" 
-              alt="PHALLBUN Logo" 
-              className="h-20 w-auto group-hover:scale-105 transition-transform duration-500 ease-out" 
+            <img
+              src="https://i.ibb.co/6JvL1qyh/logo.png"
+              alt="PHALLBUN Logo"
+              className="h-32 w-auto group-hover:scale-105 transition-transform duration-500 ease-out"
             />
             <span className="text-3xl font-serif font-bold tracking-[0.3em] text-gold hidden sm:block">PHALLBUN</span>
           </Link>
@@ -38,9 +38,8 @@ const Navbar: React.FC = () => {
               <Link
                 key={link.nameKey}
                 to={link.path}
-                className={`px-3 py-2 text-sm font-medium tracking-[0.2em] uppercase transition-all duration-300 relative group/link ${
-                  location.pathname === link.path ? 'text-gold' : 'text-white hover:text-gold'
-                }`}
+                className={`px-3 py-2 text-sm font-medium tracking-[0.2em] uppercase transition-all duration-300 relative group/link ${location.pathname === link.path ? 'text-gold' : 'text-white hover:text-gold'
+                  }`}
               >
                 {t(link.nameKey)}
                 <span className={`absolute bottom-0 left-0 w-full h-[1px] bg-gold transition-transform duration-300 origin-left ${location.pathname === link.path ? 'scale-x-100' : 'scale-x-0 group-hover/link:scale-x-100'}`}></span>
@@ -49,7 +48,7 @@ const Navbar: React.FC = () => {
 
             {/* Language Switcher */}
             <div className="relative">
-              <button 
+              <button
                 onClick={() => setShowLangs(!showLangs)}
                 className="flex items-center space-x-2 text-white hover:text-gold transition-colors text-sm font-bold uppercase tracking-widest"
               >
@@ -74,14 +73,14 @@ const Navbar: React.FC = () => {
 
           {/* Mobile menu button */}
           <div className="lg:hidden flex items-center space-x-6">
-             {/* Mobile Language Icon */}
-             <div className="relative">
+            {/* Mobile Language Icon */}
+            <div className="relative">
               <button onClick={() => setShowLangs(!showLangs)} className="text-white">
                 <Globe size={24} />
               </button>
               {showLangs && (
                 <div className="absolute top-full right-0 mt-4 w-20 bg-zinc-950 border border-gold/20 py-2">
-                   {languages.map((l) => (
+                  {languages.map((l) => (
                     <button
                       key={l.code}
                       onClick={() => { setLang(l.code); setShowLangs(false); }}
@@ -112,9 +111,8 @@ const Navbar: React.FC = () => {
                 key={link.nameKey}
                 to={link.path}
                 onClick={() => setIsOpen(false)}
-                className={`block px-4 py-5 text-lg font-serif tracking-[0.2em] uppercase transition-all ${
-                  location.pathname === link.path ? 'text-gold pl-8' : 'text-white hover:text-gold hover:pl-8'
-                }`}
+                className={`block px-4 py-5 text-lg font-serif tracking-[0.2em] uppercase transition-all ${location.pathname === link.path ? 'text-gold pl-8' : 'text-white hover:text-gold hover:pl-8'
+                  }`}
               >
                 {t(link.nameKey)}
               </Link>
