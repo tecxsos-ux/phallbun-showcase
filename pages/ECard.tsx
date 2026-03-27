@@ -216,7 +216,8 @@ END:VCARD`;
         .ecard-logo-img {
           width: 240px;
           height: auto;
-          filter: drop-shadow(0 2px 12px rgba(201,168,76,0.45));
+          mix-blend-mode: multiply;
+          filter: drop-shadow(0 2px 16px rgba(201,168,76,0.5));
         }
 
         @keyframes ecard-fade-down {
@@ -456,6 +457,7 @@ END:VCARD`;
                 />
               </div>
 
+              <div className="ecard-brand-name">PHALLBUN</div>
               <div className="ecard-tagline">LUXURY BEAUTY &amp; LIFESTYLE</div>
 
               <div className="ecard-divider" />
