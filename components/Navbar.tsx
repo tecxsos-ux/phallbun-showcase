@@ -23,13 +23,12 @@ const Navbar: React.FC = () => {
     <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center space-x-4 group">
+          <Link to="/" className="group">
             <img
               src="https://i.ibb.co/6JvL1qyh/logo.png"
               alt="PHALLBUN Logo"
               className="h-32 w-auto group-hover:scale-105 transition-transform duration-500 ease-out"
             />
-            <span className="text-3xl font-serif font-bold tracking-[0.3em] text-gold hidden sm:block">PHALLBUN</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -45,6 +44,14 @@ const Navbar: React.FC = () => {
                 <span className={`absolute bottom-0 left-0 w-full h-[1px] bg-gold transition-transform duration-300 origin-left ${location.pathname === link.path ? 'scale-x-100' : 'scale-x-0 group-hover/link:scale-x-100'}`}></span>
               </Link>
             ))}
+
+            {/* E-Card Button */}
+            <Link
+              to="/ecard"
+              className="px-5 py-2 border border-gold/70 text-gold hover:bg-gold hover:text-black transition-all duration-300 font-serif text-xs tracking-[0.25em] uppercase rounded-full hover:shadow-[0_0_16px_rgba(201,168,76,0.4)] hover:-translate-y-0.5"
+            >
+              E&#8209;Card
+            </Link>
 
             {/* Language Switcher */}
             <div className="relative">
@@ -117,6 +124,14 @@ const Navbar: React.FC = () => {
                 {t(link.nameKey)}
               </Link>
             ))}
+            {/* E-Card mobile link */}
+            <Link
+              to="/ecard"
+              onClick={() => setIsOpen(false)}
+              className="block px-4 py-5 text-lg font-serif tracking-[0.2em] uppercase transition-all text-gold border-t border-gold/20 mt-2 pt-5 hover:pl-8"
+            >
+              E&#8209;Card
+            </Link>
           </div>
         </div>
       )}
