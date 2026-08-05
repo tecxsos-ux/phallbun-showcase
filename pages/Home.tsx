@@ -13,28 +13,28 @@ const Home: React.FC = () => {
     {
       id: 'hero-duo',
       taglineKey: 'hero.tagline',
-      title: 'PHALLBUN · Natural Youthful Glow',
-      subtitle: 'Inspired by Rice & Enriched with Vitamin E. Pure Swiss Skincare.',
-      image: '/img/collection-hero.jpg',
-      badge: 'Collection Showcase'
+      titleKey: 'hero.slide0_title',
+      subtitleKey: 'hero.slide0_sub',
+      badgeKey: 'hero.slide0_badge',
+      image: '/img/collection-hero.jpg'
     },
     {
       id: 'hero-serum',
       taglineKey: 'hero.tagline',
-      title: 'PHALLBUN Sérum Visage',
-      subtitle: 'Éclat Jeunesse · 30 mL / 1.0 fl oz Bio Formula',
+      titleKey: 'hero.slide1_title',
+      subtitleKey: 'hero.slide1_sub',
+      badgeKey: 'hero.slide1_badge',
       image: '/img/serum-infographic.jpg',
-      secondaryImage: '/img/serum-visage.jpg',
-      badge: 'Sérum Visage'
+      secondaryImage: '/img/serum-visage.jpg'
     },
     {
       id: 'hero-creme',
       taglineKey: 'hero.tagline',
-      title: 'PHALLBUN Crème Visage',
-      subtitle: 'Éclat Jeunesse · 50 mL / 1.7 fl oz Bio Formula',
+      titleKey: 'hero.slide2_title',
+      subtitleKey: 'hero.slide2_sub',
+      badgeKey: 'hero.slide2_badge',
       image: '/img/creme-infographic.jpg',
-      secondaryImage: '/img/creme-visage.jpg',
-      badge: 'Crème Visage'
+      secondaryImage: '/img/creme-visage.jpg'
     }
   ];
 
@@ -64,10 +64,10 @@ const Home: React.FC = () => {
                   {t('hero.tagline')}
                 </span>
                 <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
-                  {heroSlides[currentSlide].title}
+                  {t(heroSlides[currentSlide].titleKey)}
                 </h1>
                 <p className="text-gray-300 text-lg md:text-2xl font-light italic tracking-wide">
-                  {heroSlides[currentSlide].subtitle}
+                  {t(heroSlides[currentSlide].subtitleKey)}
                 </p>
               </div>
 
@@ -98,7 +98,7 @@ const Home: React.FC = () => {
                         : 'bg-black/40 text-gray-400 border-white/10 hover:border-gold/50 hover:text-white'
                     }`}
                   >
-                    {slide.badge}
+                    {t(slide.badgeKey)}
                   </button>
                 ))}
               </div>
@@ -111,12 +111,12 @@ const Home: React.FC = () => {
                 <div className="relative rounded-2xl overflow-hidden border border-gold/30 bg-zinc-950/80 backdrop-blur-md shadow-2xl transition-all duration-700">
                   <img
                     src={heroSlides[currentSlide].image}
-                    alt={heroSlides[currentSlide].title}
+                    alt={t(heroSlides[currentSlide].titleKey)}
                     className="w-full h-[450px] sm:h-[550px] object-cover object-center transition-all duration-700 hover:scale-105"
                   />
                   <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 text-left">
                     <span className="text-gold text-xs font-bold uppercase tracking-widest block">
-                      {heroSlides[currentSlide].badge}
+                      {t(heroSlides[currentSlide].badgeKey)}
                     </span>
                     <p className="text-white text-sm font-serif italic mt-1">
                       PHALLBUN Luxury Skincare · Bio Formula

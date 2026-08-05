@@ -12,7 +12,16 @@ export const translations: Record<Language, any> = {
     hero: {
       tagline: 'Luxury Skincare Reimagined',
       explore: 'Explore Collection',
-      heritage: 'Our Heritage'
+      heritage: 'Our Heritage',
+      slide0_title: 'PHALLBUN · Natural Youthful Glow',
+      slide0_sub: 'Inspired by Rice & Enriched with Vitamin E. Pure Swiss Skincare.',
+      slide0_badge: 'Collection Showcase',
+      slide1_title: 'PHALLBUN Youthful Glow Face Serum',
+      slide1_sub: 'Organic Care · Everyday Nourishment (30 mL)',
+      slide1_badge: 'Sérum Visage',
+      slide2_title: 'PHALLBUN Youthful Glow Revitalizing Cream',
+      slide2_sub: 'Pure Organic Care · Healthy Skin · Natural Confidence (50 mL)',
+      slide2_badge: 'Crème Visage'
     },
     philosophy: {
       tagline: 'Karma & Integrity',
@@ -40,6 +49,8 @@ export const translations: Record<Language, any> = {
       description: 'Simple, effective, and suitable for everyday life. Designed to protect and rejuvenate your skin.',
       focusesOn: 'Focuses On',
       orderNow: 'Order Now',
+      bottle_tab: 'Bottle',
+      ingredients_tab: 'Ingredients',
       sunNote_title: 'Important Daily Care Note',
       sunNote_text: '"Our creams are designed for daily use. When using the cream in the morning and going out under the sun, we recommend applying sunscreen or a foundation with sun protection after the daily cream."'
     },
@@ -126,7 +137,16 @@ export const translations: Record<Language, any> = {
     hero: {
       tagline: 'Le Soin de Luxe Réinventé',
       explore: 'Explorer la Collection',
-      heritage: 'Notre Héritage'
+      heritage: 'Notre Héritage',
+      slide0_title: 'PHALLBUN · Éclat Jeunesse Naturel',
+      slide0_sub: 'Inspiré par le Riz & Enrichi en Vitamine E. Soin Suisse Pur.',
+      slide0_badge: 'Présentation Collection',
+      slide1_title: 'PHALLBUN Sérum Visage — Éclat Jeunesse',
+      slide1_sub: 'Soin Biologique · Nutrition Quotidienne (30 mL)',
+      slide1_badge: 'Sérum Visage',
+      slide2_title: 'PHALLBUN Crème Visage — Éclat Jeunesse',
+      slide2_sub: 'Soin Biologique Pur · Peau Saine · Confiance Naturelle (50 mL)',
+      slide2_badge: 'Crème Visage'
     },
     philosophy: {
       tagline: 'Karma & Intégrité',
@@ -152,9 +172,11 @@ export const translations: Record<Language, any> = {
       title: 'Nos Projets de Soins',
       tagline: 'Excellence Sélectionnée',
       description: 'Simple, efficace et adapté à la vie quotidienne. Conçu pour protéger et rajeunir votre peau.',
-      focusesOn: 'Se concentre sur',
+      focusesOn: 'Se Concentre Sur',
       orderNow: 'Commander',
-      sunNote_title: 'Note Importante de Soin Quotidien',
+      bottle_tab: 'Flacon',
+      ingredients_tab: 'Ingrédients',
+      sunNote_title: 'Note Importante pour le Soin Quotidien',
       sunNote_text: '"Nos crèmes sont conçues pour un usage quotidien. Lors de l\'utilisation le matin avec exposition au soleil, nous recommandons d\'appliquer une protection solaire après votre crème."'
     },
     about: {
@@ -240,7 +262,16 @@ export const translations: Record<Language, any> = {
     hero: {
       tagline: 'Skincare di Lusso Reinventata',
       explore: 'Esplora la Collezione',
-      heritage: 'Il Nostro Patrimonio'
+      heritage: 'Il Nostro Patrimonio',
+      slide0_title: 'PHALLBUN · Splendore Giovanile Naturale',
+      slide0_sub: 'Ispirato al Riso e Arricchito con Vitamina E. Pura Cosmesi Svizzera.',
+      slide0_badge: 'Vetrina Collezione',
+      slide1_title: 'PHALLBUN Siero Viso — Éclat Jeunesse',
+      slide1_sub: 'Cura Biologica · Nutrimento Quotidiano (30 mL)',
+      slide1_badge: 'Siero Viso',
+      slide2_title: 'PHALLBUN Crema Viso — Éclat Jeunesse',
+      slide2_sub: 'Cura Biologica Pura · Pelle Sana · Fiducia Naturale (50 mL)',
+      slide2_badge: 'Crema Viso'
     },
     philosophy: {
       tagline: 'Karma e Integrità',
@@ -266,8 +297,10 @@ export const translations: Record<Language, any> = {
       title: 'I Nostri Progetti Skincare',
       tagline: 'Eccellenza Curata',
       description: 'Semplice, efficace e adatto alla vita quotidiana. Progettato per proteggere e ringiovanire la tua pelle.',
-      focusesOn: 'Si concentra su',
+      focusesOn: 'Si Concentra Su',
       orderNow: 'Ordina Ora',
+      bottle_tab: 'Flacone',
+      ingredients_tab: 'Ingredienti',
       sunNote_title: 'Nota Importante per la Cura Quotidiana',
       sunNote_text: '"Le nostre creme sono progettate per l\'uso quotidiano. Quando si usa la crema al mattino e si esce al sole, consigliamo di applicare una protezione solare dopo la crema."'
     },
@@ -354,7 +387,16 @@ export const translations: Record<Language, any> = {
     hero: {
       tagline: 'Luxus-Hautpflege neu definiert',
       explore: 'Kollektion entdecken',
-      heritage: 'Unser Erbe'
+      heritage: 'Unser Erbe',
+      slide0_title: 'PHALLBUN · Natürlich Jugendliches Strahlen',
+      slide0_sub: 'Inspiriert von Reis & Angereichert mit Vitamin E. Reine Schweizer Hautpflege.',
+      slide0_badge: 'Kollektion Übersicht',
+      slide1_title: 'PHALLBUN Gesichtsserum — Éclat Jeunesse',
+      slide1_sub: 'Bio-Pflege · Tägliche Nährstoffzufuhr (30 mL)',
+      slide1_badge: 'Gesichtsserum',
+      slide2_title: 'PHALLBUN Gesichtscreme — Éclat Jeunesse',
+      slide2_sub: 'Reine Bio-Pflege · Gesunde Haut · Natürliches Selbstvertrauen (50 mL)',
+      slide2_badge: 'Gesichtscreme'
     },
     philosophy: {
       tagline: 'Karma & Integrität',
@@ -380,9 +422,11 @@ export const translations: Record<Language, any> = {
       title: 'Unsere Hautpflege-Projekte',
       tagline: 'Kuratierte Exzellenz',
       description: 'Einfach, effektiv und alltagstauglich. Entwickelt, um Ihre Haut zu schützen und zu verjüngen.',
-      focusesOn: 'Fokus auf',
-      orderNow: 'Jetzt bestellen',
-      sunNote_title: 'Wichtiger Hinweis zur täglichen Pflege',
+      focusesOn: 'Fokus Auf',
+      orderNow: 'Jetzt Bestellen',
+      bottle_tab: 'Flasche',
+      ingredients_tab: 'Inhaltsstoffe',
+      sunNote_title: 'Wichtiger Hinweis für die tägliche Pflege',
       sunNote_text: '"Unsere Cremes sind für den täglichen Gebrauch konzipiert. Bei der Anwendung am Morgen und Aufenthalt in der Sonne empfehlen wir nach der Creme einen Sonnenschutz aufzutragen."'
     },
     about: {

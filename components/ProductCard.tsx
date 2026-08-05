@@ -32,7 +32,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                   : 'text-gray-300 hover:text-white'
               }`}
             >
-              Bottle
+              {t('products.bottle_tab')}
             </button>
             <button
               onClick={() => setActiveImage('infographic')}
@@ -42,7 +42,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                   : 'text-gray-300 hover:text-white'
               }`}
             >
-              Ingredients
+              {t('products.ingredients_tab')}
             </button>
           </div>
         )}
