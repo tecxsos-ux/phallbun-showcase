@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="group">
             <img
-              src="https://i.ibb.co/6JvL1qyh/logo.png"
+              src="/img/logo.png"
               alt="PHALLBUN Logo"
               className="h-32 w-auto group-hover:scale-105 transition-transform duration-500 ease-out"
             />

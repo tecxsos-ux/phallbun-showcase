@@ -9,6 +9,7 @@ export interface Product {
   featuresKeys: string[];
   ageRange: string;
   image: string;
+  infographicImage?: string;
   price?: string;
 }
 

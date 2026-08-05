@@ -10,17 +10,42 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { t } = useLanguage();
+  const [activeImage, setActiveImage] = React.useState<'main' | 'infographic'>('main');
 
   return (
     <div className="group flex flex-col bg-zinc-900 border border-white/5 shadow-2xl transition-all duration-700 hover:shadow-gold/20 hover:border-gold/30">
       <div className="relative overflow-hidden aspect-[4/5]">
         <img
-          src={product.image}
+          src={activeImage === 'main' || !product.infographicImage ? product.image : product.infographicImage}
           alt={t(product.nameKey)}
-          className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 ease-out"
+          className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 ease-out"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-transparent to-transparent opacity-60 pointer-events-none"></div>
 
+        {product.infographicImage && (
+          <div className="absolute top-4 right-4 z-20 flex space-x-2 bg-black/60 backdrop-blur-md p-1 border border-gold/30 rounded-full">
+            <button
+              onClick={() => setActiveImage('main')}
+              className={`px-3 py-1 text-[10px] uppercase font-bold tracking-widest rounded-full transition-all ${
+                activeImage === 'main'
+                  ? 'bg-gold text-black shadow-md'
+                  : 'text-gray-300 hover:text-white'
+              }`}
+            >
+              Bottle
+            </button>
+            <button
+              onClick={() => setActiveImage('infographic')}
+              className={`px-3 py-1 text-[10px] uppercase font-bold tracking-widest rounded-full transition-all ${
+                activeImage === 'infographic'
+                  ? 'bg-gold text-black shadow-md'
+                  : 'text-gray-300 hover:text-white'
+              }`}
+            >
+              Ingredients
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="p-10 flex flex-col flex-grow bg-black/40 backdrop-blur-md">

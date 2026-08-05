@@ -9,90 +9,141 @@ const Home: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const { t } = useLanguage();
 
+  const heroSlides = [
+    {
+      id: 'hero-duo',
+      taglineKey: 'hero.tagline',
+      title: 'PHALLBUN · Natural Youthful Glow',
+      subtitle: 'Inspired by Rice & Enriched with Vitamin E. Pure Swiss Skincare.',
+      image: '/img/collection-hero.jpg',
+      badge: 'Collection Showcase'
+    },
+    {
+      id: 'hero-serum',
+      taglineKey: 'hero.tagline',
+      title: 'PHALLBUN Sérum Visage',
+      subtitle: 'Éclat Jeunesse · 30 mL / 1.0 fl oz Bio Formula',
+      image: '/img/serum-infographic.jpg',
+      secondaryImage: '/img/serum-visage.jpg',
+      badge: 'Sérum Visage'
+    },
+    {
+      id: 'hero-creme',
+      taglineKey: 'hero.tagline',
+      title: 'PHALLBUN Crème Visage',
+      subtitle: 'Éclat Jeunesse · 50 mL / 1.7 fl oz Bio Formula',
+      image: '/img/creme-infographic.jpg',
+      secondaryImage: '/img/creme-visage.jpg',
+      badge: 'Crème Visage'
+    }
+  ];
+
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % PRODUCTS.length);
-    }, 6000);
+      setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
+    }, 7000);
     return () => clearInterval(timer);
-  }, []);
+  }, [heroSlides.length]);
 
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % PRODUCTS.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + PRODUCTS.length) % PRODUCTS.length);
+  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
+  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + heroSlides.length) % heroSlides.length);
 
   return (
     <div className="pt-20">
-      {/* Hero Image Slider Section */}
-      <section className="relative h-[90vh] overflow-hidden bg-black">
-        <div className="absolute inset-0 animate-luxury-flow z-0 opacity-50"></div>
-
-        {PRODUCTS.map((product, index) => (
-          <div
-            key={product.id}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'
-              }`}
-          >
-            <div className="absolute inset-0 bg-black/50 z-10" />
-            <img
-              src={product.image}
-              alt={t(product.nameKey)}
-              className={`w-full h-full object-cover transition-transform duration-[10000ms] ease-linear ${index === currentSlide ? 'scale-110' : 'scale-100'
-                }`}
-            />
-          </div>
-        ))}
-
+      {/* Redesigned Luxury Hero Section */}
+      <section className="relative min-h-[90vh] overflow-hidden bg-black flex items-center justify-center py-16">
+        <div className="absolute inset-0 animate-luxury-flow z-0 opacity-40"></div>
         <div className="ambient-glow-circle"></div>
 
-        <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-4">
-          <div className="max-w-5xl">
-            <span className="text-gold tracking-[0.5em] uppercase mb-6 text-xs md:text-sm block animate-fade-in opacity-80">{t('hero.tagline')}</span>
-            <h1 className="text-5xl md:text-8xl font-serif font-bold text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
-              {t(PRODUCTS[currentSlide].nameKey)}
-            </h1>
-            <p className="text-white/90 text-lg md:text-2xl mb-12 max-w-3xl mx-auto font-light italic tracking-wide">
-              {t(PRODUCTS[currentSlide].subtitleKey)}
-            </p>
-            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 justify-center">
-              <Link
-                to="/products"
-                className="bg-gold hover:bg-white text-black px-12 py-5 font-bold uppercase tracking-[0.2em] transition-all duration-500 shadow-2xl shadow-gold/20 text-sm"
-              >
-                {t('hero.explore')}
-              </Link>
-              <Link
-                to="/about"
-                className="backdrop-blur-sm border border-white/30 hover:bg-white hover:text-black text-white px-12 py-5 font-bold uppercase tracking-[0.2em] transition-all duration-500 text-sm"
-              >
-                {t('hero.heritage')}
-              </Link>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            {/* Left Content */}
+            <div className="lg:col-span-6 space-y-8 text-left">
+              <div className="space-y-4">
+                <span className="text-gold tracking-[0.5em] uppercase text-xs md:text-sm font-bold block animate-fade-in opacity-90">
+                  {t('hero.tagline')}
+                </span>
+                <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-white leading-tight tracking-tight drop-shadow-2xl">
+                  {heroSlides[currentSlide].title}
+                </h1>
+                <p className="text-gray-300 text-lg md:text-2xl font-light italic tracking-wide">
+                  {heroSlides[currentSlide].subtitle}
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-4 pt-4">
+                <Link
+                  to="/products"
+                  className="bg-gold hover:bg-white text-black px-10 py-4 font-bold uppercase tracking-[0.2em] transition-all duration-500 shadow-2xl shadow-gold/20 text-xs sm:text-sm"
+                >
+                  {t('hero.explore')}
+                </Link>
+                <Link
+                  to="/about"
+                  className="backdrop-blur-md border border-white/30 hover:bg-white hover:text-black text-white px-10 py-4 font-bold uppercase tracking-[0.2em] transition-all duration-500 text-xs sm:text-sm"
+                >
+                  {t('hero.heritage')}
+                </Link>
+              </div>
+
+              {/* Slide selector pills */}
+              <div className="pt-8 flex items-center space-x-3">
+                {heroSlides.map((slide, index) => (
+                  <button
+                    key={slide.id}
+                    onClick={() => setCurrentSlide(index)}
+                    className={`px-4 py-2 rounded-full text-[11px] font-serif uppercase tracking-widest transition-all border ${
+                      index === currentSlide
+                        ? 'bg-gold text-black border-gold font-bold shadow-lg shadow-gold/20 scale-105'
+                        : 'bg-black/40 text-gray-400 border-white/10 hover:border-gold/50 hover:text-white'
+                    }`}
+                  >
+                    {slide.badge}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Hero Image Card Showcase */}
+            <div className="lg:col-span-6 relative flex justify-center">
+              <div className="relative w-full max-w-lg lg:max-w-xl group">
+                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-gold/30 via-gold/10 to-gold/40 blur-xl opacity-70 group-hover:opacity-100 transition duration-1000"></div>
+                <div className="relative rounded-2xl overflow-hidden border border-gold/30 bg-zinc-950/80 backdrop-blur-md shadow-2xl transition-all duration-700">
+                  <img
+                    src={heroSlides[currentSlide].image}
+                    alt={heroSlides[currentSlide].title}
+                    className="w-full h-[450px] sm:h-[550px] object-cover object-center transition-all duration-700 hover:scale-105"
+                  />
+                  <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 text-left">
+                    <span className="text-gold text-xs font-bold uppercase tracking-widest block">
+                      {heroSlides[currentSlide].badge}
+                    </span>
+                    <p className="text-white text-sm font-serif italic mt-1">
+                      PHALLBUN Luxury Skincare · Bio Formula
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
+        {/* Navigation Buttons */}
         <div className="absolute inset-y-0 left-4 right-4 z-30 flex items-center justify-between pointer-events-none">
           <button
             onClick={prevSlide}
-            className="pointer-events-auto p-4 rounded-full border border-white/10 bg-black/40 backdrop-blur-md hover:bg-gold hover:text-black transition-all"
+            className="pointer-events-auto p-4 rounded-full border border-white/10 bg-black/40 backdrop-blur-md hover:bg-gold hover:text-black text-white transition-all shadow-xl"
+            aria-label="Previous Slide"
           >
             <ChevronLeft size={24} />
           </button>
           <button
             onClick={nextSlide}
-            className="pointer-events-auto p-4 rounded-full border border-white/10 bg-black/40 backdrop-blur-md hover:bg-gold hover:text-black transition-all"
+            className="pointer-events-auto p-4 rounded-full border border-white/10 bg-black/40 backdrop-blur-md hover:bg-gold hover:text-black text-white transition-all shadow-xl"
+            aria-label="Next Slide"
           >
             <ChevronRight size={24} />
           </button>
-        </div>
-
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 z-30 flex space-x-4">
-          {PRODUCTS.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={`h-[2px] transition-all duration-700 ${index === currentSlide ? 'w-16 bg-gold' : 'w-6 bg-white/20'
-                }`}
-            />
-          ))}
         </div>
       </section>
 
@@ -105,9 +156,9 @@ const Home: React.FC = () => {
             <div className="order-2 lg:order-1 relative">
               <div className="absolute -top-10 -left-10 w-full h-full border border-gold/10 z-0"></div>
               <img
-                src="https://i.ibb.co/DPdKwW3Z/product-antiage.jpg"
-                alt="Brand Identity"
-                className="relative z-10 w-full h-[600px] object-cover contrast-[1.1] shadow-2xl"
+                src="/img/collection-hero.jpg"
+                alt="PHALLBUN Collection"
+                className="relative z-10 w-full h-[600px] object-cover contrast-[1.05] shadow-2xl rounded-sm"
               />
             </div>
             <div className="order-1 lg:order-2 space-y-10">

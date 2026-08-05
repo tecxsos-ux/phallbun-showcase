@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div className="space-y-8">
             <div className="flex items-center space-x-4">
-              <img src="https://i.ibb.co/6JvL1qyh/logo.png" alt="PHALLBUN Logo" className="h-16 w-auto" />
+              <img src="/img/logo.png" alt="PHALLBUN Logo" className="h-16 w-auto" />
               <h2 className="text-3xl font-serif text-gold tracking-[0.2em] uppercase">PHALLBUN</h2>
             </div>
             <p className="text-gray-400 leading-relaxed italic text-lg max-w-sm">

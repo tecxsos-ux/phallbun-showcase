@@ -85,24 +85,34 @@ export const translations: Record<Language, any> = {
     },
     items: {
       antiage: {
-        name: 'All-in-One Repair & Brightening Cream',
-        subtitle: '',
-        desc2: 'This is a day and night all-in-one cream, designed to fit easily into every routine.',
-        desc3: 'With regular use, it helps the skin look younger, smoother, healthier, and more radiant.',
-        f1: 'Anti-aging prevention',
-        f2: 'Reducing dark spots',
-        f3: 'Deep hydration and nourishment',
-        f4: 'Improving skin texture'
+        name: 'PHALLBUN Youthful Glow Face Serum',
+        subtitle: 'Organic Care · Everyday Nourishment · Naturally Youthful Skin (30 mL)',
+        desc1: 'Reveal your skin’s natural beauty with PHALLBUN Youthful Glow Face Serum—a luxurious organic formula created to deeply nourish, replenish moisture, and support healthy-looking skin every day.',
+        desc2: 'Powered by Vitamin E and a carefully selected blend of organic botanical ingredients, Hyaluronic Acid, Niacinamide, Centella Asiatica, Peptides, and Zinc PCA, this lightweight serum helps restore your skin’s natural radiance while providing long-lasting hydration and daily protection against environmental stress.',
+        desc3: 'Its silky, fast-absorbing texture leaves your skin feeling soft, refreshed, and comfortable—never greasy. With continued daily use, your complexion looks smoother, firmer, healthier, and naturally glowing with confidence.',
+        quote: 'Healthy skin isn’t created overnight—it’s nurtured every day.',
+        f1: '🌿 Carefully crafted with organic ingredients',
+        f2: '💛 Enriched with Vitamin E for antioxidant protection',
+        f3: '💧 Deep, long-lasting hydration',
+        f4: '✨ Promotes a naturally youthful, healthy glow',
+        f5: '🌸 Helps improve skin texture and firmness',
+        f6: '🛡️ Supports the skin’s natural protective barrier',
+        f7: '🌱 Gentle enough for all skin types, including sensitive skin',
+        f8: '☀️ Perfect for everyday morning and evening care'
       },
       young: {
-        name: 'Daily Protective Cream',
-        subtitle: '',
-        desc2: 'It is gentle, calming, and made to protect young skin every day.',
-        f1: 'Protection from climate and environmental stress',
-        f2: 'Deep hydration',
-        f3: 'Strengthening the skin barrier',
-        f4: 'Providing essential vitamins',
-        f5: 'Luminous, smooth, and healthy look'
+        name: 'PHALLBUN Youthful Glow Revitalizing Cream',
+        subtitle: 'Pure Organic Care · Healthy Skin · Natural Confidence (50 mL)',
+        desc1: 'Discover the beauty of healthy skin with PHALLBUN’s carefully crafted organic face cream. Made with thoughtfully selected natural ingredients, our formula deeply hydrates, nourishes, and helps strengthen your skin’s natural barrier for lasting comfort and a naturally radiant appearance.',
+        desc2: 'Its rich yet lightweight texture melts effortlessly into your skin, delivering long-lasting hydration without feeling heavy or greasy. With every application, your skin feels softer, smoother, healthier, and beautifully refreshed.',
+        quote: 'Because true beauty comes from healthy skin, not temporary effects.',
+        f1: '🌿 100% Organic ingredients',
+        f2: '💧 Deep, long-lasting hydration',
+        f3: '✨ Healthy, naturally radiant glow',
+        f4: '🛡️ Helps support the skin’s natural protective barrier',
+        f5: '🌸 Leaves skin soft, smooth, and comfortable all day',
+        f6: '🌱 Gentle for all skin types, including sensitive skin',
+        f7: '💛 Made with care for everyday confidence'
       }
     }
   },
@@ -189,24 +199,34 @@ export const translations: Record<Language, any> = {
     },
     items: {
       antiage: {
-        name: 'Crème Réparatrice & Éclaircissante Tout-en-un',
-        subtitle: '',
-        desc2: 'C\'est une crème tout-en-un jour et nuit, conçue pour s\'adapter facilement à chaque routine.',
-        desc3: 'Avec une utilisation régulière, elle aide la peau à paraître plus jeune, plus lisse et plus éclatante.',
-        f1: 'Prévention anti-âge',
-        f2: 'Réduction des taches brunes',
-        f3: 'Hydratation profonde et nutrition',
-        f4: 'Amélioration du grain de peau'
+        name: 'PHALLBUN Sérum Visage — Éclat Jeunesse',
+        subtitle: 'Soin Biologique · Nutrition Quotidienne · Peau Jeune Naturelle (30 mL)',
+        desc1: 'Révélez la beauté naturelle de votre peau avec le Sérum Visage Éclat Jeunesse PHALLBUN — une formule biologique luxueuse conçue pour nourrir en profondeur et maintenir une peau saine au quotidien.',
+        desc2: 'Enrichi en Vitamine E, Acide Hyaluronique, Niacinamide, Centella Asiatica, Peptides et Zinc PCA, ce sérum léger restaure l’éclat naturel tout en offrant une protection contre le stress environnemental.',
+        desc3: 'Sa texture soyeuse et à absorption rapide laisse la peau douce, fraîche et confortable, sans aucun effet gras.',
+        quote: 'Une peau saine ne se crée pas du jour au lendemain — elle se cultive chaque jour.',
+        f1: '🌿 Élaboré avec soin à partir d’ingrédients biologiques',
+        f2: '💛 Enrichi en Vitamine E pour une protection antioxydante',
+        f3: '💧 Hydratation profonde et longue durée',
+        f4: '✨ Favorise un éclat jeune et naturellement sain',
+        f5: '🌸 Améliore la texture et la fermeté de la peau',
+        f6: '🛡️ Renforce la barrière protectrice naturelle',
+        f7: '🌱 Doux pour tous types de peaux, y compris sensibles',
+        f8: '☀️ Idéal pour un soin quotidien matin et soir'
       },
       young: {
-        name: 'Crème Protectrice Quotidienne',
-        subtitle: '',
-        desc2: 'Elle est douce, apaisante et conçue pour protéger la peau jeune au quotidien.',
-        f1: 'Protection contre le climat et le stress environnemental',
-        f2: 'Hydratation profonde',
-        f3: 'Renforcement de la barrière cutanée',
-        f4: 'Apport de vitamines essentielles',
-        f5: 'Aspect lumineux, lisse et sain'
+        name: 'PHALLBUN Crème Visage — Éclat Jeunesse',
+        subtitle: 'Soin Bio Biologique · Peau Saine · Confiance Naturelle (50 mL)',
+        desc1: 'Découvrez la beauté d’une peau saine grâce à la crème visage biologique soigneusement élaborée par PHALLBUN. Formulée avec des ingrédients naturels sélectionnés avec soin, elle hydrate en profondeur, nourrit et renforce la barrière naturelle de votre peau.',
+        desc2: 'Sa texture riche mais légère fond délicatement sur la peau, offrant une hydratation longue durée sans sensation de lourdeur ni effet gras.',
+        quote: 'Parce que la vraie beauté provient d’une peau saine, non d’effets temporaires.',
+        f1: '🌿 Ingrédients 100% Biologiques',
+        f2: '💧 Hydratation profonde et durable',
+        f3: '✨ Éclat naturel et sain',
+        f4: '🛡️ Renforce la barrière protectrice naturelle',
+        f5: '🌸 Peau douce, lisse et confortable toute la journée',
+        f6: '🌱 Doux pour tous types de peaux, même sensibles',
+        f7: '💛 Fait avec soin pour une confiance au quotidien'
       }
     }
   },
@@ -293,24 +313,34 @@ export const translations: Record<Language, any> = {
     },
     items: {
       antiage: {
-        name: 'Crema All-in-One Riparatrice e Illuminante',
-        subtitle: '',
-        desc2: 'Questa è una crema all-in-one giorno e notte, progettata per adattarsi facilmente a ogni routine.',
-        desc3: 'Con l\'uso regolare, aiuta la pelle a apparire più giovane, liscia e radiosa.',
-        f1: 'Prevenzione anti-età',
-        f2: 'Riduzione delle macchie scure',
-        f3: 'Idratazione profonda e nutrimento',
-        f4: 'Miglioramento della texture della pelle'
+        name: 'PHALLBUN Sérum Visage — Éclat Jeunesse',
+        subtitle: 'Cura Biologica · Nutrimento Quotidiano · Pelle Giovane Naturale (30 mL)',
+        desc1: 'Rivelate la bellezza naturale della vostra pelle con il Siero Viso PHALLBUN Youthful Glow—una formula biologica lussuosa creata per nutrire in profondità e sostenere una pelle sana ogni giorno.',
+        desc2: 'Arricchito con Vitamina E, Acido Ialuronico, Niacinamide, Centella Asiatica, Peptidi e Zinco PCA, questo siero leggero ripristina la naturale luminosità della pelle fornendo idratazione e protezione quotidiana.',
+        desc3: 'La sua texture setosa a rapido assorbimento lascia la pelle morbida, fresca e confortevole, senza ungere.',
+        quote: 'Una pelle sana non si crea dall’oggi al domani: si nutre ogni giorno.',
+        f1: '🌿 Creato con cura con ingredienti biologici',
+        f2: '💛 Arricchito con Vitamina E per protezione antiossidante',
+        f3: '💧 Idratazione profonda e a lunga durata',
+        f4: '✨ Promuove una luminosità giovanile e sana',
+        f5: '🌸 Aiuta a migliorare la texture e la fermezza della pelle',
+        f6: '🛡️ Sostiene la barriera protettiva naturale della pelle',
+        f7: '🌱 Delicato per tutti i tipi di pelle, anche quelle sensibili',
+        f8: '☀️ Perfetto per la cura quotidiana di mattina e sera'
       },
       young: {
-        name: 'Crema Protettiva Quotidiana',
-        subtitle: '',
-        desc2: 'È delicata, calmante e fatta per proteggere la pelle giovane ogni giorno.',
-        f1: 'Protezione dal clima e dallo stress ambientale',
-        f2: 'Idratazione profonda',
-        f3: 'Rafforzamento della barriera cutanea',
-        f4: 'Fornitura di vitamine essenziali',
-        f5: 'Aspetto luminoso, liscio e sano'
+        name: 'PHALLBUN Crème Visage — Éclat Jeunesse',
+        subtitle: 'Cura Biologica Pura · Pelle Sana · Fiducia Naturale (50 mL)',
+        desc1: 'Scopri la bellezza di una pelle sana con la crema viso biologica PHALLBUN. Realizzata con ingredienti naturali accuratamente selezionati, la nostra formula idrata in profondità, nutre e rafforza la barriera naturale della pelle.',
+        desc2: 'La sua texture ricca ma leggera si fonde senza sforzo sulla pelle, donando un’idratazione duratura senza ungere.',
+        quote: 'Perché la vera bellezza deriva da una pelle sana, non da effetti temporanei.',
+        f1: '🌿 Ingredienti 100% Biologici',
+        f2: '💧 Idratazione profonda e a lunga durata',
+        f3: '✨ Luminosità sana e naturale',
+        f4: '🛡️ Aiuta a sostenere la barriera protettiva della pelle',
+        f5: '🌸 Lascia la pelle morbida, liscia e confortevole tutto il giorno',
+        f6: '🌱 Delicata per tutti i tipi di pelle, anche quelle sensibili',
+        f7: '💛 Creata con cura per una sicurezza quotidiana'
       }
     }
   },
@@ -397,24 +427,34 @@ export const translations: Record<Language, any> = {
     },
     items: {
       antiage: {
-        name: 'All-in-One Reparatur & Aufhellungscreme',
-        subtitle: '',
-        desc2: 'Dies ist eine All-in-One Tages- und Nachtcreme, die sich leicht in jede Routine einfügt.',
-        desc3: 'Bei regelmäßiger Anwendung wirkt die Haut jünger, glatter und strahlender.',
-        f1: 'Anti-Aging-Prävention',
-        f2: 'Reduzierung dunkler Flecken',
-        f3: 'Tiefe Hydratation und Nährstoffzufuhr',
-        f4: 'Verbesserung der Hautstruktur'
+        name: 'PHALLBUN Sérum Visage — Éclat Jeunesse',
+        subtitle: 'Bio-Pflege · Tägliche Nährstoffzufuhr · Natürlich Junge Haut (30 mL)',
+        desc1: 'Entdecken Sie die natürliche Schönheit Ihrer Haut mit dem PHALLBUN Youthful Glow Gesichtsserum—einer luxuriösen Bio-Formel für tiefenwirksame Pflege und ein gesundes Hautbild jeden Tag.',
+        desc2: 'Angereichert mit Vitamin E, Hyaluronsäure, Niacinamid, Centella Asiatica, Peptiden und Zink PCA stellt dieses leichte Serum das natürliche Strahlen der Haut wieder her.',
+        desc3: 'Die seidige, schnell einziehende Textur hinterlässt ein weiches, erfrischtes und angenehmes Hautgefühl ohne zu fetten.',
+        quote: 'Gesunde Haut entsteht nicht über Nacht—sie wird jeden Tag gepflegt.',
+        f1: '🌿 Sorgfältig hergestellt mit biologischen Inhaltsstoffen',
+        f2: '💛 Angereichert mit Vitamin E für antioxidativen Schutz',
+        f3: '💧 Tiefe, langanhaltende Feuchtigkeit',
+        f4: '✨ Fördert ein natürlich jugendliches, gesundes Strahlen',
+        f5: '🌸 Verbessert Hautstruktur und Festigkeit',
+        f6: '🛡️ Stärkt die natürliche Schutzbarriere der Haut',
+        f7: '🌱 Sanft für alle Hauttypen, auch für empfindliche Haut',
+        f8: '☀️ Perfekt für die tägliche Pflege morgens und abends'
       },
       young: {
-        name: 'Tägliche Schutzcreme',
-        subtitle: '',
-        desc2: 'Sie ist sanft, beruhigend und schützt junge Haut jeden Tag.',
-        f1: 'Schutz vor Klima- und Umweltstress',
-        f2: 'Tiefe Hydratation',
-        f3: 'Stärkung der Hautbarriere',
-        f4: 'Versorgung mit essenziellen Vitaminen',
-        f5: 'Strahlendes, glattes und gesundes Aussehen'
+        name: 'PHALLBUN Crème Visage — Éclat Jeunesse',
+        subtitle: 'Reine Bio-Pflege · Gesunde Haut · Natürliches Selbstvertrauen (50 mL)',
+        desc1: 'Entdecken Sie die Schönheit gesunder Haut mit der biologischen Gesichtscreme von PHALLBUN. Hergestellt aus sorgfältig ausgewählten natürlichen Inhaltsstoffen, spendet sie tiefenwirksam Feuchtigkeit und stärkt die natürliche Hautbarriere.',
+        desc2: 'Ihre reichhaltige, aber leichte Textur zieht mühelos ein und spendet langanhaltende Feuchtigkeit ohne zu fetten.',
+        quote: 'Denn wahre Schönheit entsteht durch gesunde Haut, nicht durch vorübergehende Effekte.',
+        f1: '🌿 100% Biologische Inhaltsstoffe',
+        f2: '💧 Tiefe, langanhaltende Feuchtigkeit',
+        f3: '✨ Gesunder, natürlich strahlender Teint',
+        f4: '🛡️ Stärkt die natürliche Schutzbarriere der Haut',
+        f5: '🌸 Hinterlässt die Haut den ganzen Tag weich und geschmeidig',
+        f6: '🌱 Sanft für alle Hauttypen, auch für empfindliche Haut',
+        f7: '💛 Mit Sorgfalt hergestellt für tägliches Selbstbewusstsein'
       }
     }
   }

@@ -451,7 +451,7 @@ END:VCARD`;
             <div className="ecard-inner">
               <div className="ecard-logo-container">
                 <img
-                  src="https://i.ibb.co/6JvL1qyh/logo.png"
+                  src="/img/logo.png"
                   alt="PHALLBUN Logo"
                   className="ecard-logo-img"
                 />

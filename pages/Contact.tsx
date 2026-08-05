@@ -72,9 +72,9 @@ const Contact: React.FC = () => {
 
             <div className="aspect-video flex items-center justify-center border border-gold/20 overflow-hidden bg-zinc-900 group">
               <img
-                src="https://i.ibb.co/1YHDVN0X/brandname.png"
+                src="/img/collection-hero.jpg"
                 alt="PHALLBUN Brand"
-                className="max-h-full max-w-full object-contain p-8 group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>

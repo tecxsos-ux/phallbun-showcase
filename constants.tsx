@@ -10,12 +10,14 @@ export const NAV_LINKS: NavLink[] = [
 
 export const PRODUCTS: Product[] = [
   {
-    id: 'anti-age-repair',
+    id: 'serum-visage',
     nameKey: 'items.antiage.name',
     subtitleKey: 'items.antiage.subtitle',
-    image: 'https://i.ibb.co/DPdKwW3Z/product-antiage.jpg',
-    ageRange: '25+',
+    image: '/img/serum-visage.jpg',
+    infographicImage: '/img/serum-infographic.jpg',
+    ageRange: 'All Skin Types',
     descriptionKeys: [
+      'items.antiage.desc1',
       'items.antiage.desc2',
       'items.antiage.desc3'
     ],
@@ -23,16 +25,22 @@ export const PRODUCTS: Product[] = [
       'items.antiage.f1',
       'items.antiage.f2',
       'items.antiage.f3',
-      'items.antiage.f4'
+      'items.antiage.f4',
+      'items.antiage.f5',
+      'items.antiage.f6',
+      'items.antiage.f7',
+      'items.antiage.f8'
     ]
   },
   {
-    id: 'daily-protective',
+    id: 'creme-visage',
     nameKey: 'items.young.name',
     subtitleKey: 'items.young.subtitle',
-    image: 'https://i.ibb.co/TxpSV4BN/product-cream.jpg',
-    ageRange: '10–25',
+    image: '/img/creme-visage.jpg',
+    infographicImage: '/img/creme-infographic.jpg',
+    ageRange: 'All Skin Types',
     descriptionKeys: [
+      'items.young.desc1',
       'items.young.desc2'
     ],
     featuresKeys: [
@@ -40,7 +48,9 @@ export const PRODUCTS: Product[] = [
       'items.young.f2',
       'items.young.f3',
       'items.young.f4',
-      'items.young.f5'
+      'items.young.f5',
+      'items.young.f6',
+      'items.young.f7'
     ]
   }
 ];

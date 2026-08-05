@@ -25,9 +25,9 @@ const About: React.FC = () => {
           <div className="relative group">
             <div className="absolute inset-0 border border-gold transform translate-x-4 translate-y-4 z-0 transition-transform duration-700 group-hover:translate-x-2 group-hover:translate-y-2 opacity-50" />
             <img
-              src="https://i.ibb.co/wrdQq0Xw/about-us-photo.jpg"
+              src="/img/collection-hero.jpg"
               alt={t('about.founder_title')}
-              className="relative z-10 w-full h-[600px] object-cover shadow-2xl grayscale-[0.2] contrast-[1.1] group-hover:grayscale-0 transition-all duration-1000"
+              className="relative z-10 w-full h-[600px] object-cover shadow-2xl contrast-[1.05] transition-all duration-1000"
             />
           </div>
           <div className="space-y-8">
