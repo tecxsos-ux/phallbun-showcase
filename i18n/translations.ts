@@ -44,7 +44,7 @@ export const translations: Record<Language, any> = {
       }
     },
     products: {
-      title: 'Our Skincare Projects',
+      title: 'Our Skincare Collection',
       tagline: 'Curated Excellence',
       description: 'Simple, effective, and suitable for everyday life. Designed to protect and rejuvenate your skin.',
       focusesOn: 'Focuses On',
@@ -171,7 +171,7 @@ export const translations: Record<Language, any> = {
       }
     },
     products: {
-      title: 'Nos Projets de Soins',
+      title: 'Notre Collection de Soins',
       tagline: 'Excellence Sélectionnée',
       description: 'Simple, efficace et adapté à la vie quotidienne. Conçu pour protéger et rajeunir votre peau.',
       focusesOn: 'Se Concentre Sur',
@@ -298,7 +298,7 @@ export const translations: Record<Language, any> = {
       }
     },
     products: {
-      title: 'I Nostri Progetti Skincare',
+      title: 'La Nostra Skincare',
       tagline: 'Eccellenza Curata',
       description: 'Semplice, efficace e adatto alla vita quotidiana. Progettato per proteggere e ringiovanire la tua pelle.',
       focusesOn: 'Si Concentra Su',
@@ -425,7 +425,7 @@ export const translations: Record<Language, any> = {
       }
     },
     products: {
-      title: 'Unsere Hautpflege-Projekte',
+      title: 'Unsere Hautpflege',
       tagline: 'Kuratierte Exzellenz',
       description: 'Einfach, effektiv und alltagstauglich. Entwickelt, um Ihre Haut zu schützen und zu verjüngen.',
       focusesOn: 'Fokus Auf',
