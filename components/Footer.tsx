@@ -17,9 +17,12 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 leading-relaxed italic text-lg max-w-sm">
               "Simple, honest, gentle, effective. Inspired by love, designed for confidence."
             </p>
-            <div className="flex space-x-6">
+            <div className="flex space-x-6 items-center">
               <a href="https://www.instagram.com/phallbunpb/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-all duration-300 hover:-translate-y-1" aria-label="Instagram"><Instagram size={24} /></a>
               <a href="https://www.facebook.com/share/1cfW2ipi4T/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-all duration-300 hover:-translate-y-1" aria-label="Facebook"><Facebook size={24} /></a>
+              <a href="https://www.tiktok.com/@phallbun.ch" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-all duration-300 hover:-translate-y-1" aria-label="TikTok">
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64c.29 0 .56.04.82.1V9.28a6.33 6.33 0 00-.82-.05A6.34 6.34 0 003.15 15.5a6.34 6.34 0 0010.86 4.47V10.7a8.27 8.27 0 005.58 2.15V9.4a4.83 4.83 0 01-3.48-1.54 4.85 4.85 0 01-1.1-3.17h.03v2h4.55z"/></svg>
+              </a>
             </div>
           </div>
 

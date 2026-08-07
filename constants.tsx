@@ -61,5 +61,6 @@ export const CONTACT_DETAILS = {
   email: 'phallbun.ck@gmail.com',
   phone: '+41 77 928 81 33',
   facebook: 'https://www.facebook.com/share/1cfW2ipi4T/?mibextid=wwXIfr',
-  instagram: 'https://www.instagram.com/phallbunpb/'
+  instagram: 'https://www.instagram.com/phallbunpb/',
+  tiktok: 'https://www.tiktok.com/@phallbun.ch'
 };

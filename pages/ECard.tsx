@@ -75,6 +75,7 @@ TEL;TYPE=CELL:+41779288133
 EMAIL:Chendabelle@gmail.com
 URL:https://www.phallbun.ch
 X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/phallbunpb/
+X-SOCIALPROFILE;TYPE=tiktok:https://www.tiktok.com/@phallbun.ch
 ADR;TYPE=WORK:;;;;;;Switzerland
 NOTE:Phallbun - Luxury Beauty & Lifestyle
 END:VCARD`;
@@ -495,6 +496,14 @@ END:VCARD`;
                       <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4A5.8 5.8 0 0122 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8A5.8 5.8 0 012 16.2V7.8A5.8 5.8 0 017.8 2zm-.2 2A3.6 3.6 0 004 7.6v8.8A3.6 3.6 0 007.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6A3.6 3.6 0 0016.4 4H7.6zm9.65 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z" /></svg>
                     </span>
                     <span>@phallbunpb</span>
+                  </a>
+                </li>
+                <li>
+                  <a className="ecard-contact-item" href="https://www.tiktok.com/@phallbun.ch" target="_blank" rel="noreferrer">
+                    <span className="ecard-contact-icon">
+                      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64c.29 0 .56.04.82.1V9.28a6.33 6.33 0 00-.82-.05A6.34 6.34 0 003.15 15.5a6.34 6.34 0 0010.86 4.47V10.7a8.27 8.27 0 005.58 2.15V9.4a4.83 4.83 0 01-3.48-1.54 4.85 4.85 0 01-1.1-3.17h.03v2h4.55z"/></svg>
+                    </span>
+                    <span>@phallbun.ch</span>
                   </a>
                 </li>
                 <li>
