@@ -49,7 +49,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </div>
 
       <div className="p-10 flex flex-col flex-grow bg-black/40 backdrop-blur-md">
-        <h3 className="text-3xl font-serif text-white mb-2 group-hover:text-gold transition-colors duration-500">{t(product.nameKey)}</h3>
+        <div className="flex justify-between items-start mb-2 gap-4">
+          <h3 className="text-3xl font-serif text-white group-hover:text-gold transition-colors duration-500">{t(product.nameKey)}</h3>
+          {product.price && (
+            <span className="text-xl font-serif font-bold text-gold px-3.5 py-1.5 bg-gold/10 border border-gold/40 rounded-lg shrink-0 shadow-lg tracking-wider">
+              {product.price}
+            </span>
+          )}
+        </div>
         <p className="text-gold tracking-widest uppercase text-xs font-bold mb-8 opacity-80">{t(product.subtitleKey)}</p>
 
         <div className="space-y-4 mb-10">
