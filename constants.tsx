@@ -59,5 +59,6 @@ export const CONTACT_DETAILS = {
   name: 'PHALLBUN',
   address: 'Hüningerstrasse 14, 4056 Basel',
   email: 'phallbun.ck@gmail.com',
-  phone: '+41 77 928 81 33'
+  phone: '+41 77 928 81 33',
+  facebook: 'https://www.facebook.com/share/1cfW2ipi4T/?mibextid=wwXIfr'
 };

@@ -482,6 +482,14 @@ END:VCARD`;
                   </a>
                 </li>
                 <li>
+                  <a className="ecard-contact-item" href="https://www.facebook.com/share/1cfW2ipi4T/?mibextid=wwXIfr" target="_blank" rel="noreferrer">
+                    <span className="ecard-contact-icon">
+                      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7.5v-3H10V9.69c0-2.47 1.47-3.83 3.72-3.83 1.08 0 2.21.19 2.21.19v2.43h-1.25c-1.22 0-1.6.76-1.6 1.54V12h2.74l-.44 3h-2.3v6.8c4.56-.93 8-4.96 8-9.8z"/></svg>
+                    </span>
+                    <span>Facebook</span>
+                  </a>
+                </li>
+                <li>
                   <a className="ecard-contact-item" href="https://instagram.com/phailbun" target="_blank" rel="noreferrer">
                     <span className="ecard-contact-icon">
                       <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4A5.8 5.8 0 0122 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8A5.8 5.8 0 012 16.2V7.8A5.8 5.8 0 017.8 2zm-.2 2A3.6 3.6 0 004 7.6v8.8A3.6 3.6 0 007.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6A3.6 3.6 0 0016.4 4H7.6zm9.65 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6z" /></svg>
