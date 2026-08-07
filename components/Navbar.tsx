@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
             <img
               src="/img/logo.png"
               alt="PHALLBUN Logo"
-              className="h-32 w-auto group-hover:scale-105 transition-transform duration-500 ease-out"
+              className="h-12 md:h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-500 ease-out"
             />
           </Link>
 

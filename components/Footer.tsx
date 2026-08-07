@@ -11,9 +11,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
           {/* Brand */}
           <div className="space-y-8">
-            <div className="flex items-center space-x-4">
-              <img src="/img/logo.png" alt="PHALLBUN Logo" className="h-16 w-auto" />
-              <h2 className="text-3xl font-serif text-gold tracking-[0.2em] uppercase">PHALLBUN</h2>
+            <div className="flex items-center">
+              <img src="/img/logo.png" alt="PHALLBUN Logo" className="h-16 w-auto object-contain" />
             </div>
             <p className="text-gray-400 leading-relaxed italic text-lg max-w-sm">
               "Simple, honest, gentle, effective. Inspired by love, designed for confidence."

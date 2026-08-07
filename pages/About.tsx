@@ -35,10 +35,21 @@ const About: React.FC = () => {
             <div className="space-y-6 text-gray-300 leading-relaxed text-lg font-light">
               <p>{t('about.founder_p1')}</p>
               <p>{t('about.founder_p2')}</p>
-              <p className="text-white italic font-medium">{t('about.founder_belief')}</p>
               <p>{t('about.founder_p3')}</p>
-              <p>{t('about.founder_p4')}</p>
-              <p className="text-gold font-serif text-2xl italic pt-4">
+              <p className="text-white font-medium">{t('about.founder_p4')}</p>
+
+              <div className="space-y-4 pt-4 border-t border-gold/20">
+                <div className="p-5 bg-zinc-900/60 rounded-lg border border-gold/20 text-gray-200 shadow-inner">
+                  {t('about.serum_bullet')}
+                </div>
+                <div className="p-5 bg-zinc-900/60 rounded-lg border border-gold/20 text-gray-200 shadow-inner">
+                  {t('about.cream_bullet')}
+                </div>
+              </div>
+
+              <p className="italic text-gray-400 pt-2">{t('about.thank_you')}</p>
+
+              <p className="text-gold font-serif text-2xl italic pt-4 border-t border-white/10">
                 {t('about.founder_footer')}
               </p>
             </div>

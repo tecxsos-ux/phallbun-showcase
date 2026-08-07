@@ -457,7 +457,6 @@ END:VCARD`;
                 />
               </div>
 
-              <div className="ecard-brand-name">PHALLBUN</div>
               <div className="ecard-tagline">LUXURY BEAUTY &amp; LIFESTYLE</div>
 
               <div className="ecard-divider" />
