@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               "Simple, honest, gentle, effective. Inspired by love, designed for confidence."
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-white hover:text-gold transition-all duration-300 hover:-translate-y-1" aria-label="Instagram"><Instagram size={24} /></a>
+              <a href="https://www.instagram.com/phallbunpb/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-all duration-300 hover:-translate-y-1" aria-label="Instagram"><Instagram size={24} /></a>
               <a href="https://www.facebook.com/share/1cfW2ipi4T/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gold transition-all duration-300 hover:-translate-y-1" aria-label="Facebook"><Facebook size={24} /></a>
             </div>
           </div>
